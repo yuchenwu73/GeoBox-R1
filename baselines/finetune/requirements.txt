@@ -1,0 +1,7 @@
+transformers>=4.55.0,<5
+accelerate>=1.2
+datasets>=3.0
+peft>=0.14
+Pillow>=10
+# Optional for BITS=4/8:
+bitsandbytes>=0.45

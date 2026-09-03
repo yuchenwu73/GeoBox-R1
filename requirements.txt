@@ -1,0 +1,35 @@
+# GeoBox-R1 training and evaluation dependencies.
+# Versions are the ones used to produce the reported results (Python 3.10, CUDA 12.x).
+# Install torch for your CUDA version from the official index first; it is not pinned here.
+# flash-attn is required by the training launchers and is the default attention backend of the
+# evaluation scripts; it has no universal wheel on PyPI, so install it separately (see README).
+
+# Core frameworks
+ms-swift==4.0.2
+transformers==4.57.3
+torch>=2.8.0
+accelerate>=1.12.0
+peft>=0.18.0
+trl>=0.24.0
+deepspeed>=0.17.6
+qwen-vl-utils>=0.0.14
+
+# vLLM rollout server for the GDPO stage
+vllm==0.11.0
+
+# Geometry: rotated IoU for oriented boxes relies on shapely
+shapely>=2.1.0
+numpy>=1.26
+
+# Data and images
+Pillow>=10.0
+tqdm>=4.66
+datasets>=3.0
+
+# Visualization
+matplotlib>=3.8
+opencv-python-headless>=4.8
+
+# Demo only (demo/)
+gradio>=5.32.0,<6
+socksio>=1.0.0

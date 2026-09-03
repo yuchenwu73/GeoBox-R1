@@ -1,0 +1,177 @@
+[
+  {
+    "id": 1,
+    "dataset": "dior_rsvg_test",
+    "dataset_label": "DIOR-RSVG",
+    "image_file": "01_dior_rsvg_09017.jpg",
+    "question": "A tennis court is on the upper left of the red vehicle",
+    "recommended_task": "hbb",
+    "gt_bbox": [
+      287.0,
+      146.0,
+      408.0,
+      398.0
+    ],
+    "gt_poly": [
+      [
+        287.0,
+        146.0
+      ],
+      [
+        408.0,
+        146.0
+      ],
+      [
+        408.0,
+        398.0
+      ],
+      [
+        287.0,
+        398.0
+      ]
+    ],
+    "image_width": 800,
+    "image_height": 800,
+    "note": "Tennis court located by its relation to the red vehicle."
+  },
+  {
+    "id": 2,
+    "dataset": "vrsbench_test",
+    "dataset_label": "VRSBench",
+    "image_file": "02_vrsbench_10255_0000.png",
+    "question": "The airplane positioned on the far right within the image.",
+    "recommended_task": "hbb",
+    "gt_bbox": [
+      419.84,
+      317.44,
+      558.08,
+      471.04
+    ],
+    "gt_poly": [
+      [
+        422.0,
+        320.0
+      ],
+      [
+        559.0,
+        320.0
+      ],
+      [
+        559.0,
+        469.0
+      ],
+      [
+        422.0,
+        469.0
+      ]
+    ],
+    "image_width": 512,
+    "image_height": 512,
+    "note": "Rightmost airplane in a scene with several aircraft."
+  },
+  {
+    "id": 3,
+    "dataset": "geochat_test",
+    "dataset_label": "GeoChat",
+    "image_file": "03_geochat_train_10750_0000.png",
+    "question": "large liquid-cargo-ship",
+    "recommended_task": "obb",
+    "gt_bbox": [
+      304.0,
+      467.0,
+      430.0,
+      592.0
+    ],
+    "gt_poly": [
+      [
+        304.0,
+        573.0
+      ],
+      [
+        323.0,
+        592.0
+      ],
+      [
+        430.0,
+        487.0
+      ],
+      [
+        411.0,
+        467.0
+      ]
+    ],
+    "image_width": 600,
+    "image_height": 600,
+    "note": "Diagonal cargo ship suited to an oriented box."
+  },
+  {
+    "id": 4,
+    "dataset": "avvg_test",
+    "dataset_label": "AVVG",
+    "image_file": "04_avvg_436392aa-DJI_0146.JPG",
+    "question": "the black volkswagen mid-size car in the bottom-middle",
+    "recommended_task": "obb",
+    "gt_bbox": [
+      2097.0,
+      1667.0,
+      2545.0,
+      2115.0
+    ],
+    "gt_poly": [
+      [
+        2097.0,
+        1801.0
+      ],
+      [
+        2232.0,
+        1667.0
+      ],
+      [
+        2545.0,
+        1981.0
+      ],
+      [
+        2411.0,
+        2115.0
+      ]
+    ],
+    "image_width": 4000,
+    "image_height": 2250,
+    "note": "Slanted vehicle whose orientation is visually clear."
+  },
+  {
+    "id": 5,
+    "dataset": "vrsbench_test",
+    "dataset_label": "VRSBench",
+    "image_file": "05_vrsbench_P1476_0005.png",
+    "question": "The large vehicle towards the middle of the row.",
+    "recommended_task": "obb",
+    "gt_bbox": [
+      153.6,
+      240.64,
+      276.48,
+      363.52
+    ],
+    "gt_poly": [
+      [
+        174.0,
+        363.0
+      ],
+      [
+        156.0,
+        345.0
+      ],
+      [
+        254.0,
+        243.0
+      ],
+      [
+        275.0,
+        263.0
+      ]
+    ],
+    "image_width": 512,
+    "image_height": 512,
+    "note": "Diagonal vehicle where an oriented box avoids excess background."
+  }
+]

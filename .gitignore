@@ -1,0 +1,24 @@
+# Runtime artifacts and caches
+__pycache__/
+*.py[cod]
+*.log
+.DS_Store
+.ruff_cache/
+
+# Editor / assistant state
+.omc/
+.omx/
+.claude/
+.codex/
+.gradio/
+
+# Large directories that are prepared locally and never versioned
+data/
+models/
+eval_results/
+output/
+runs/
+runtime_outputs/
+selftest_out/
+figures/
+baselines/finetune/data/
